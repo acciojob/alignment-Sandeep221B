@@ -14,6 +14,13 @@
 		h1{
 			text-align:center;
 		}
+		.center2{
+			text-align:center;
+			background-color:yellow
+		}
+		.bottom{
+			text-align:center
+		}
 	</style>
 </head>
 
@@ -45,47 +52,58 @@
 	
 	<table id="table-2" style="border:1px solid black; border-spacing:1px;">
 		<thead style="border:1px solid black; padding:1px; background-color: green;">
-			<th colspan="7">row</th>
+			<th id="t21" colspan="7">row</th>
 			
 		</thead>
 		<tbody style="border:1px solid black; padding:1px; background-color: blue;">
 			<tr>
-				<td rowspan="4" class="center">left</td>
-				<td class="center">center</td>
-				<td class="center right">right</td>
-				<td class="center">left</td>
-				<td class="center">center</td>
-				<td class="center">center</td>
+				<td rowspan="4" >left</td>
+				<td>center</td>
+				<td>right</td>
+				<td>left</td>
+				<td>center</td>
+				<td>center</td>
 				
 			</tr>
 			<tr>
-				<td id="t11">left</td>
-				<td id="t12">center</td>
-				<td id="t13"class="right">right</td>
-				<td class="center">left</td>
-				<td class="center">center</td>
+				<td >left</td>
+				<td colspan=3 rowspan=2 >center</td>
+				<td >right</td>
 				
 			<tr>
-				<td id="t11">left</td>
-				<td id="t12">center</td>
-				<td id="t13"class="right">right</td>
-				<td class="center">left</td>
-				<td class="center">center</td>
+				<td>left</td>
+				<td >center</td>
+			
 				
 			</tr>
 			<tr>
-				<td id="t11">left</td>
-				<td id="t12">center</td>
-				<td id="t13"class="right">right</td>
-				<td class="center">left</td>
-				<td class="center">center</td>
+				<td>left</td>
+				<td>center</td>
+				<td>right</td>
+				<td >left</td>
+				<td >center</td>
 				
 			</tr>
 			<tr >
-				<td colspan="7" id="t11">left</td>
+				<td class="center2"  colspan=6 >bottom</td>
 			</tr>
 		</tbody>
 	</table>
+	<table id="table-3" style="border:1px solid black; border-spacing:1px;">
+		<thead>
+			<tr>
+				<th>top</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr></tr>
+		<td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"</td>
+		</tr>
+		<tr>
+			<td class="bottom">Bottom</td>
+		</tr>
+		</tbody>
+		
 	
 		
 
